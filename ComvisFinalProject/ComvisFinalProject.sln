@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComvisFinalProject", "ComvisFinalProject\ComvisFinalProject.csproj", "{21B81E4E-CDF8-48E2-8297-FEF3F41689FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21B81E4E-CDF8-48E2-8297-FEF3F41689FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B81E4E-CDF8-48E2-8297-FEF3F41689FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B81E4E-CDF8-48E2-8297-FEF3F41689FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B81E4E-CDF8-48E2-8297-FEF3F41689FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {225C6BE3-07B7-4C43-8A6B-14234AA60717}
+	EndGlobalSection
+EndGlobal
