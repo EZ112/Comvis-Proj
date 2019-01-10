@@ -68,7 +68,7 @@
             this.checkBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox3.Location = new System.Drawing.Point(493, 43);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(80, 25);
+            this.checkBox3.Size = new System.Drawing.Size(156, 49);
             this.checkBox3.TabIndex = 7;
             this.checkBox3.Text = "Triangle";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -80,7 +80,7 @@
             this.checkBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox2.Location = new System.Drawing.Point(267, 43);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(65, 25);
+            this.checkBox2.Size = new System.Drawing.Size(126, 49);
             this.checkBox2.TabIndex = 6;
             this.checkBox2.Text = "Circle";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@
             this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox1.Location = new System.Drawing.Point(48, 43);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(56, 25);
+            this.checkBox1.Size = new System.Drawing.Size(107, 49);
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "Line";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -189,7 +189,7 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 45F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ComvisFinalProject.Properties.Resources.bg;
             this.ClientSize = new System.Drawing.Size(804, 561);
@@ -204,7 +204,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Shape Detection";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

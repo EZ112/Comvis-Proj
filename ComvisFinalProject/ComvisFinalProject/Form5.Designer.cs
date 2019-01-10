@@ -68,9 +68,10 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::ComvisFinalProject.Properties.Resources.back;
-            this.pictureBox4.Location = new System.Drawing.Point(57, 29);
+            this.pictureBox4.Location = new System.Drawing.Point(114, 56);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(43, 42);
+            this.pictureBox4.Size = new System.Drawing.Size(86, 81);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 20;
             this.pictureBox4.TabStop = false;
@@ -80,9 +81,10 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::ComvisFinalProject.Properties.Resources.logo;
-            this.pictureBox3.Location = new System.Drawing.Point(416, 21);
+            this.pictureBox3.Location = new System.Drawing.Point(832, 40);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(66, 50);
+            this.pictureBox3.Size = new System.Drawing.Size(132, 96);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 19;
             this.pictureBox3.TabStop = false;
@@ -97,9 +99,11 @@
             this.groupBox1.Controls.Add(this.pictureBox6);
             this.groupBox1.Controls.Add(this.pictureBox5);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(140, 392);
+            this.groupBox1.Location = new System.Drawing.Point(280, 754);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(608, 147);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.groupBox1.Size = new System.Drawing.Size(1216, 283);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Result";
@@ -107,36 +111,40 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(467, 117);
+            this.label3.Location = new System.Drawing.Point(934, 225);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
+            this.label3.Size = new System.Drawing.Size(108, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Threshold";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(271, 117);
+            this.label2.Location = new System.Drawing.Point(542, 225);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.Size = new System.Drawing.Size(85, 25);
             this.label2.TabIndex = 4;
             this.label2.Text = "Smooth";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(63, 117);
+            this.label1.Location = new System.Drawing.Point(126, 225);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.Size = new System.Drawing.Size(109, 25);
             this.label1.TabIndex = 3;
             this.label1.Text = "Grayscale";
             // 
             // pictureBox7
             // 
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Location = new System.Drawing.Point(444, 19);
+            this.pictureBox7.Location = new System.Drawing.Point(888, 37);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(100, 95);
+            this.pictureBox7.Size = new System.Drawing.Size(200, 183);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 2;
             this.pictureBox7.TabStop = false;
@@ -145,9 +153,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Location = new System.Drawing.Point(242, 19);
+            this.pictureBox6.Location = new System.Drawing.Point(484, 37);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(100, 95);
+            this.pictureBox6.Size = new System.Drawing.Size(200, 183);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 1;
             this.pictureBox6.TabStop = false;
@@ -156,9 +165,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Location = new System.Drawing.Point(40, 19);
+            this.pictureBox5.Location = new System.Drawing.Point(80, 37);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 95);
+            this.pictureBox5.Size = new System.Drawing.Size(200, 183);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
@@ -172,10 +182,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(140, 347);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(280, 667);
+            this.button1.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(240, 37);
+            this.button1.Size = new System.Drawing.Size(480, 71);
             this.button1.TabIndex = 16;
             this.button1.Text = "Browse";
             this.button1.UseVisualStyleBackColor = false;
@@ -186,10 +196,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ComvisFinalProject.Properties.Resources.imgPlaceholder;
-            this.pictureBox2.Location = new System.Drawing.Point(508, 80);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(1016, 154);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(240, 240);
+            this.pictureBox2.Size = new System.Drawing.Size(480, 462);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
@@ -198,55 +208,59 @@
             // 
             this.pictureBox1.Image = global::ComvisFinalProject.Properties.Resources.imgPlaceholder;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(140, 80);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(280, 154);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(240, 240);
+            this.pictureBox1.Size = new System.Drawing.Size(480, 462);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(400, 166);
+            this.numericUpDown2.Location = new System.Drawing.Point(800, 319);
+            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             255,
             0,
             0,
             0});
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(101, 20);
+            this.numericUpDown2.Size = new System.Drawing.Size(202, 31);
             this.numericUpDown2.TabIndex = 21;
             this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(400, 219);
+            this.numericUpDown3.Location = new System.Drawing.Point(800, 421);
+            this.numericUpDown3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.numericUpDown3.Maximum = new decimal(new int[] {
             255,
             0,
             0,
             0});
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(101, 20);
+            this.numericUpDown3.Size = new System.Drawing.Size(202, 31);
             this.numericUpDown3.TabIndex = 22;
             this.numericUpDown3.ValueChanged += new System.EventHandler(this.numericUpDown3_ValueChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(413, 150);
+            this.label4.Location = new System.Drawing.Point(826, 288);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 13);
+            this.label4.Size = new System.Drawing.Size(153, 25);
             this.label4.TabIndex = 23;
             this.label4.Text = "Low Threshold";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(413, 203);
+            this.label5.Location = new System.Drawing.Point(826, 390);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 13);
+            this.label5.Size = new System.Drawing.Size(158, 25);
             this.label5.TabIndex = 24;
             this.label5.Text = "High Threshold";
             // 
@@ -261,7 +275,8 @@
             0,
             0,
             0});
-            this.numericUpDown1.Location = new System.Drawing.Point(400, 113);
+            this.numericUpDown1.Location = new System.Drawing.Point(800, 217);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             255,
             0,
@@ -273,7 +288,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(101, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(202, 31);
             this.numericUpDown1.TabIndex = 25;
             this.numericUpDown1.Value = new decimal(new int[] {
             1,
@@ -285,9 +300,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(413, 97);
+            this.label6.Location = new System.Drawing.Point(826, 187);
+            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 13);
+            this.label6.Size = new System.Drawing.Size(143, 25);
             this.label6.TabIndex = 26;
             this.label6.Text = "Smooth Level";
             // 
@@ -299,10 +315,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(508, 347);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(1016, 667);
+            this.button2.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(240, 37);
+            this.button2.Size = new System.Drawing.Size(480, 71);
             this.button2.TabIndex = 27;
             this.button2.Text = "Save";
             this.button2.UseVisualStyleBackColor = false;
@@ -312,10 +328,10 @@
             // 
             // Form5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(804, 561);
+            this.ClientSize = new System.Drawing.Size(1608, 1079);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.numericUpDown1);
@@ -330,8 +346,9 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.Text = "Image Processing";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form5_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
